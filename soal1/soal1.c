@@ -50,7 +50,7 @@ void zip(){
       if (rm2 == 0){
         execl("/bin/rm", "rm", "Fylm", NULL);
       }else{
-        while ((wait(&movestat3)) > 0);
+        while ((wait(&removestat2)) > 0);
         execl("/bin/rm", "rm", "Musyik", NULL);
       }
     }
