@@ -156,7 +156,7 @@ void download(){
     exit(EXIT_FAILURE);
   }
   if (down1 == 0){
-    execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1ZG8nRBRPquhYXq_sISdsVcXx5VdEgi-J&export=download", "-O", "Musik_for_Stevany.zip", NULL);
+    execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1ZG8nRBRPquhYXq_sISdsVcXx5VdEgi-J&export=download", "-qO", "Musik_for_Stevany.zip", NULL);
   }else {
     while ((wait(&downstat1)) > 0);
     pid_t down2;
@@ -166,7 +166,7 @@ void download(){
       exit(EXIT_FAILURE);
     }
     if (down2 == 0){
-      execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1FsrAzb9B5ixooGUs0dGiBr-rC7TS9wTD&export=download", "-O", "Foto_for_Stevany.zip", NULL);
+      execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1FsrAzb9B5ixooGUs0dGiBr-rC7TS9wTD&export=download", "-qO", "Foto_for_Stevany.zip", NULL);
     }else{
       while ((wait(&downstat2)) > 0);
       pid_t down3;
@@ -176,7 +176,7 @@ void download(){
         exit(EXIT_FAILURE);
       }
       if (down3 == 0){
-        execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1ktjGgDkL0nNpY-vT7rT7O6ZI47Ke9xcp&export=download", "-O", "Film_for_Stevany.zip", NULL);
+        execl("/usr/bin/wget", "wget", "--no-check-certificate", "https://drive.google.com/uc?id=1ktjGgDkL0nNpY-vT7rT7O6ZI47Ke9xcp&export=download", "-qO", "Film_for_Stevany.zip", NULL);
       }else{
         while ((wait(&downstat3)) > 0);
         unzip();
@@ -225,9 +225,7 @@ int main() {
     exit(EXIT_FAILURE);
   }
 
-  if ((chdir("/")) < 0) {
-    exit(EXIT_FAILURE);
-  }
+  chdir("home/tito/soal1/");
 
   close(STDIN_FILENO);
   close(STDOUT_FILENO);
