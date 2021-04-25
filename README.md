@@ -8,7 +8,6 @@ Konsep pada soal 1 yaitu dengan membuat child setiap melakukan exec, agar tidak 
 
 C memiliki fungsi mkdir() untuk membuat folder, tetapi kita menggunakan exec dan menggunakan shell untuk membuat folder
 
-![WhatsApp Image 2021-04-25 at 16 12 33](https://user-images.githubusercontent.com/77373958/115996801-009be580-a60b-11eb-8074-bb8d5cf15eab.jpeg)
 ![WhatsApp Image 2021-04-25 at 16 11 48](https://user-images.githubusercontent.com/77373958/115996803-01cd1280-a60b-11eb-83e8-59ecf6c6ee6d.jpeg)
 ![WhatsApp Image 2021-04-25 at 16 11 06](https://user-images.githubusercontent.com/77373958/115996805-0265a900-a60b-11eb-9ea8-a3b77cc1f2c8.jpeg)
 ![WhatsApp Image 2021-04-25 at 16 10 41](https://user-images.githubusercontent.com/77373958/115996807-0396d600-a60b-11eb-83a1-4bdae7ed245b.jpeg)
@@ -28,7 +27,7 @@ gambar
 
 Pada setiap hasil download, kita perlu mengunzip satu-satu setiap filenya. Isi dari zip tersebut merupakan folder, sehingga ketika diunzip akan menghasilkan 3 folder total. Sama seperti sebelumnya, kita perlu membuat 3 child untuk setiap kali unzip.
 
-gambar
+![WhatsApp Image 2021-04-25 at 16 09 25](https://user-images.githubusercontent.com/77373958/115996809-042f6c80-a60b-11eb-9148-e7bd77d5c7c9.jpeg)
 
 Hasil dari unzip terdapat pada directory tersebut
 
@@ -36,19 +35,19 @@ Hasil dari unzip terdapat pada directory tersebut
 
 Memindahkan file isi dari unzip ke dalam dir yang tadi telah dibuat sesuai ketentuan (musik ke Musyik, dll.) dapat menggunakan mv. Syaratnya adalah dir harus kosong, karena itulah tadi perlu diunzip di luar dir tujuan
 
-gambar
+![WhatsApp Image 2021-04-25 at 16 10 10](https://user-images.githubusercontent.com/77373958/115996808-0396d600-a60b-11eb-8fd9-e9a5b00ac938.jpeg)
 
 ### **e. membuat program berjalan otomatis pada waktu yang ditentukan**
 
 Program yang dibuat harus berjalan otomatis di latar belakang dan bekerja pada pukul yang telah ditentukan. Untuk mengecek waktunya, kita membuat sebuah array of char sebagai karakter waktu sekarang dan membandingkan dengan waktu yang diinginkan dalam while loop. Jika masih tidak sesuai, maka program akan terus berulang sampai sesuai.
 
-gambar
+![WhatsApp Image 2021-04-25 at 16 10 41](https://user-images.githubusercontent.com/77373958/115996807-0396d600-a60b-11eb-83a1-4bdae7ed245b.jpeg)
 
 ### **f. zip dan delete file pada waktu yang ditentukan**
 
 Menggunakan cara yang sama dengan e untuk masalah waktu. zip semua dir menjadi satu dengan format Lopyu_Stevany.zip, kemudian menghapus sisanya.
 
-gambar
+![WhatsApp Image 2021-04-25 at 16 11 06](https://user-images.githubusercontent.com/77373958/115996805-0265a900-a60b-11eb-9ea8-a3b77cc1f2c8.jpeg)
 
 Kendala
 - Sering terjadi error saat multiple child
@@ -65,6 +64,7 @@ Kendala
 Sebelumnya, kita perlu mendownload pets.zip yang ada pada drive. Hasil download akan ada pada dir /home/tito/download, tetapi kita perlu zip ke dir /home/tito/modul2/petshop. Sebelum dizip ke dir tersebut, kita perlu membuat dir tersebut terlebih dahulu. Diperintahkan untuk menghapus folder yang ada di dalam zip, tetapi dapat dilakukan dengan cara lain, yaitu tidak perlu zip folder, hanya file.
 
 
+![WhatsApp Image 2021-04-25 at 16 12 33](https://user-images.githubusercontent.com/77373958/115996801-009be580-a60b-11eb-8074-bb8d5cf15eab.jpeg)
 
 Kendala
 - Kesulitan mengerjakan 2b. .......
