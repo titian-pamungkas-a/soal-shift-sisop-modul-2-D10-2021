@@ -52,6 +52,18 @@ Kendala
 
 
 
+## **Soal 2**
+
+### **a. Membuat dir dengan path tertera dan unzip ke dir tersebut**
+
+Sebelumnya, kita perlu mendownload pets.zip yang ada pada drive. Hasil download akan ada pada dir /home/tito/download, tetapi kita perlu zip ke dir /home/tito/modul2/petshop. Sebelum dizip ke dir tersebut, kita perlu membuat dir tersebut terlebih dahulu. Diperintahkan untuk menghapus folder yang ada di dalam zip, tetapi dapat dilakukan dengan cara lain, yaitu tidak perlu zip folder, hanya file.
+
+
+
+Kendala
+- Kesulitan mengerjakan 2b. .......
+- Terdapat anggota kelompok yang tidak berkontribusi
+
 
 
 
