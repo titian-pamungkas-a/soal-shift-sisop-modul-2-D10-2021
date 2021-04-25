@@ -8,7 +8,13 @@ Konsep pada soal 1 yaitu dengan membuat child setiap melakukan exec, agar tidak 
 
 C memiliki fungsi mkdir() untuk membuat folder, tetapi kita menggunakan exec dan menggunakan shell untuk membuat folder
 
-gambar
+![WhatsApp Image 2021-04-25 at 16 12 33](https://user-images.githubusercontent.com/77373958/115996801-009be580-a60b-11eb-8074-bb8d5cf15eab.jpeg)
+![WhatsApp Image 2021-04-25 at 16 11 48](https://user-images.githubusercontent.com/77373958/115996803-01cd1280-a60b-11eb-83e8-59ecf6c6ee6d.jpeg)
+![WhatsApp Image 2021-04-25 at 16 11 06](https://user-images.githubusercontent.com/77373958/115996805-0265a900-a60b-11eb-9ea8-a3b77cc1f2c8.jpeg)
+![WhatsApp Image 2021-04-25 at 16 10 41](https://user-images.githubusercontent.com/77373958/115996807-0396d600-a60b-11eb-83a1-4bdae7ed245b.jpeg)
+![WhatsApp Image 2021-04-25 at 16 10 10](https://user-images.githubusercontent.com/77373958/115996808-0396d600-a60b-11eb-8fd9-e9a5b00ac938.jpeg)
+![WhatsApp Image 2021-04-25 at 16 09 25](https://user-images.githubusercontent.com/77373958/115996809-042f6c80-a60b-11eb-9148-e7bd77d5c7c9.jpeg)
+![WhatsApp Image 2021-04-25 at 16 08 01](https://user-images.githubusercontent.com/77373958/115996810-04c80300-a60b-11eb-8c60-f2afd7a2fb86.jpeg)
 
 Agar program tidak berhenti saat sudah melakukan exec, maka kita membuat child lagi sehingga dapat melakukan exec lagi, berlaku juga untuk cara seterusnya.
 
